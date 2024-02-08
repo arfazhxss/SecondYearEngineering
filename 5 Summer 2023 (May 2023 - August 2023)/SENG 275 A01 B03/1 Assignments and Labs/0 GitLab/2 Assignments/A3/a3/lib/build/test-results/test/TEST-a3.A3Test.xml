@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a3.A3Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-07-28T09:08:19" hostname="arfazhussX.local" time="0.621">
+  <properties/>
+  <testcase name="thousandValidNumbers" classname="a3.A3Test" time="0.237"/>
+  <testcase name="thousandInvalidNumbers" classname="a3.A3Test" time="0.135"/>
+  <testcase name="invalidIDs()" classname="a3.A3Test" time="0.224"/>
+  <testcase name="validIDs()" classname="a3.A3Test" time="0.002"/>
+  <testcase name="notInDatabase()" classname="a3.A3Test" time="0.001"/>
+  <testcase name="testNoConnection()" classname="a3.A3Test" time="0.001"/>
+  <system-out><![CDATA[timestamp = 2023-07-28T02:08:19.970203, A3Test:thousandValidNumbers = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 2          | # of all combined edge cases
+edge-cases#tried = 2          | # of edge cases tried in current run
+seed = 2559867623437988131    | random seed to reproduce generated values
+
+
+timestamp = 2023-07-28T02:08:20.108842, A3Test:thousandInvalidNumbers = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 12         | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = 1613468760317708154    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

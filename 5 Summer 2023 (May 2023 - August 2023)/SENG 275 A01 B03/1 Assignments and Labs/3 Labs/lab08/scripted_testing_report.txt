@@ -1,0 +1,43 @@
+Pair/scripted testing report:
+Partner name (if any):
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "1 Withdraw", Select any valid account (For card 1 -> Checking and Saving)
+Expected outcome: Selecting Cancel any time should cancel the withdrawal
+Actual outcome: Selecting Cancel doesn't do anything
+Fixed in version 1.1? NO
+
+Bug number: 2
+Software version: 1.0
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "2 Deposit", Select any valid account (For card 1 -> Checking and/or Saving)
+Expected outcome: Depositing any amount should give a correct amount of how much money a customer will have in their total balance sheet as well as total available. 
+Actual outcome: Depositing any amount gives wrong amount of calculation. Suppose given I have $100 ad I deposit $0.10, it is show me I have $90.10 as my total balance. Depositing $0.10 more is showing me I have $80.20 left, which is incorrect as the amount is getting subtracted in an exponential order.
+Fixed in version 1.1? YES.
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "3 Transfer", Select Transfer From "2 Savings" and Transfer To "1 Checking"
+Expected outcome: System performs a legitimate transfer of transactions properly.
+Actual outcome: System doesn't performs a legitimate transfer of transactions properly. Makes false calculations.
+Fixed in version 1.1? YES.
+
+Bug number: 4
+Software version: 1.0
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "3 Transfer", Select Transfer From "2 Savings" and Transfer To "1 Checking"
+Expected outcome: System performs a legitimate transfer of transactions properly.
+Actual outcome: System doesn't performs a legitimate transfer of transactions properly. Makes false calculations.
+Fixed in version 1.1? YES.
+
+Bug number: 5
+Software version: 1.1
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "1 Withdraw", Select any valid account for the Card (Checking and/or Savings for the Card 1)
+Expected outcome: System verifies it has sufficient cash on hand to fulfill the request.
+Actual outcome: System fails to verify it has sufficient cash on hand to fulfill the request. When a customer has $600 in their available AND Total Balance Sheet, the system shows that they can't withdraw because of insufficient fund even when the fund being tried to be withdrawn ranges from $20 to $200, far below than the amount available in the account.
+Fixed in version 1.1? YES.
+

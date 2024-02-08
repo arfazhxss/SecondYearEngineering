@@ -1,0 +1,39 @@
+Dtimestamp = 2023-06-24T21:09:27.370131, LeapYearTest:InvalidYear = 
+K                              |-------------------jqwik-------------------
+7tries = 1000                  | # of calls to property
+8checks = 1000                 | # of not rejected calls
+Bgeneration = RANDOMIZED       | parameters are randomly generated
+6after-failure = PREVIOUS_SEED | use the previous seed
+Bwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+8edge-cases#mode = MIXIN       | edge cases are mixed in
+=edge-cases#total = 5          | # of all combined edge cases
+Eedge-cases#tried = 5          | # of edge cases tried in current run
+Jseed = -7498724407467826377   | random seed to reproduce generated values
+
+
+Dtimestamp = 2023-06-24T21:09:27.454814, LeapYearTest:NonLeapYear = 
+K                              |-------------------jqwik-------------------
+7tries = 1000                  | # of calls to property
+8checks = 780                  | # of not rejected calls
+Bgeneration = RANDOMIZED       | parameters are randomly generated
+6after-failure = PREVIOUS_SEED | use the previous seed
+Bwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+8edge-cases#mode = MIXIN       | edge cases are mixed in
+=edge-cases#total = 4          | # of all combined edge cases
+Eedge-cases#tried = 4          | # of edge cases tried in current run
+Jseed = -3008756421582218667   | random seed to reproduce generated values
+
+
+Atimestamp = 2023-06-24T21:09:27.504819, LeapYearTest:LeapYear = 
+K                              |-------------------jqwik-------------------
+7tries = 1000                  | # of calls to property
+8checks = 254                  | # of not rejected calls
+Bgeneration = RANDOMIZED       | parameters are randomly generated
+6after-failure = PREVIOUS_SEED | use the previous seed
+Bwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+8edge-cases#mode = MIXIN       | edge cases are mixed in
+=edge-cases#total = 4          | # of all combined edge cases
+Eedge-cases#tried = 4          | # of edge cases tried in current run
+Jseed = 7226421000210992399    | random seed to reproduce generated values
+
+

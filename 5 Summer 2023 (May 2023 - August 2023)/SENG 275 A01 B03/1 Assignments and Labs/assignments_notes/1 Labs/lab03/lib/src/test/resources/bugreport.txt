@@ -1,0 +1,42 @@
+Bug Report:
+
+Function: `messageIsValid(String input, boolean motorcycle)`
+
+Summary:
+The `messageIsValid` function has several issues that cause it to return incorrect results based on the defined rules for validating a personalized BC license plate message.
+
+Bug 1:
+Description: The function incorrectly returns false when a maximum of 7 lettered input is given with a hyphen or space or both, even though it should return true.
+Steps to Reproduce:
+1. Call the `messageIsValid` function with a 7-letter input string containing a hyphen or space.
+2. Set the `motorcycle` parameter to either true or false.
+
+Expected Result: The function should return true.
+Actual Result: The function returns false.
+
+Bug 2:
+Description: The function incorrectly returns true when a 7-letter input is given without a hyphen or space, even though it should return false.
+Steps to Reproduce:
+1. Call the `messageIsValid` function with a 7-letter input string without a hyphen or space.
+2. Set the `motorcycle` parameter to either true or false.
+
+Expected Result: The function should return false.
+Actual Result: The function returns true.
+
+Bug 3:
+Description: The function incorrectly returns true when the `motorcycle` parameter is false (indicating it is not a motorcycle), even though it should return false.
+Steps to Reproduce:
+1. Call the `messageIsValid` function with any valid input string.
+2. Set the `motorcycle` parameter to false.
+
+Expected Result: The function should return false.
+Actual Result: The function returns true.
+
+Additional Information:
+- The `messageIsValid` function correctly checks the input length, presence of hyphens/spaces at the beginning or end, and the presence of non-alphanumeric characters.
+- However, the logic for checking the maximum number of letters when hyphens/spaces are present seems to have a flaw.
+
+Recommendation:
+To fix the issues, the function should be updated to properly handle the scenarios described in the bug report. The validation logic should be revised to adhere to the defined rules for personalized BC license plate messages.
+
+Please note that the bug report is based on the findings and understanding of the code provided. Further analysis or debugging might be required to fully address the issues mentioned.

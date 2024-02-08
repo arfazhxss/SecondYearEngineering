@@ -1,0 +1,26 @@
+Gtimestamp = 2023-07-28T02:08:19.970203, A3Test:thousandValidNumbers = 
+K                              |-------------------jqwik-------------------
+7tries = 1000                  | # of calls to property
+8checks = 1000                 | # of not rejected calls
+Bgeneration = RANDOMIZED       | parameters are randomly generated
+6after-failure = PREVIOUS_SEED | use the previous seed
+Bwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+8edge-cases#mode = MIXIN       | edge cases are mixed in
+=edge-cases#total = 2          | # of all combined edge cases
+Eedge-cases#tried = 2          | # of edge cases tried in current run
+Jseed = 2559867623437988131    | random seed to reproduce generated values
+
+
+Itimestamp = 2023-07-28T02:08:20.108842, A3Test:thousandInvalidNumbers = 
+K                              |-------------------jqwik-------------------
+7tries = 1000                  | # of calls to property
+8checks = 1000                 | # of not rejected calls
+Bgeneration = RANDOMIZED       | parameters are randomly generated
+6after-failure = PREVIOUS_SEED | use the previous seed
+Bwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+8edge-cases#mode = MIXIN       | edge cases are mixed in
+=edge-cases#total = 12         | # of all combined edge cases
+Eedge-cases#tried = 12         | # of edge cases tried in current run
+Jseed = 1613468760317708154    | random seed to reproduce generated values
+
+

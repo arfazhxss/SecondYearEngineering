@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.npc.ghost.InkyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-07-17T02:40:47" hostname="arfazhussX.local" time="0.524">
+  <properties/>
+  <testcase name="otherSide()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.463"/>
+  <testcase name="noBlinkyCombined()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.009"/>
+  <testcase name="noPacman()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.009"/>
+  <testcase name="alongBlinky()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.012"/>
+  <testcase name="notPossibleToDouble()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.013"/>
+  <testcase name="inkyBug()" classname="nl.tudelft.jpacman.npc.ghost.InkyTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

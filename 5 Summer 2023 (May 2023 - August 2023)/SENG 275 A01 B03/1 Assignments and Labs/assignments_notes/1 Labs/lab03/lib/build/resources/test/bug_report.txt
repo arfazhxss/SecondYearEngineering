@@ -1,0 +1,14 @@
+Title:
+Submitter:
+email address:
+
+Summary of bug:
+
+Expected behaviour:
+
+Actual behaviour:
+
+Steps to Reproduce:
+
+Severity:
+

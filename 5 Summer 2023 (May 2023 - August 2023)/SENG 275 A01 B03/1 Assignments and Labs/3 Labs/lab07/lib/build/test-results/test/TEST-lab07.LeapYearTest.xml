@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab07.LeapYearTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-25T04:09:27" hostname="arfazhussX.local" time="0.295">
+  <properties/>
+  <testcase name="InvalidYear" classname="lab07.LeapYearTest" time="0.164"/>
+  <testcase name="NonLeapYear" classname="lab07.LeapYearTest" time="0.081"/>
+  <testcase name="LeapYear" classname="lab07.LeapYearTest" time="0.05"/>
+  <system-out><![CDATA[timestamp = 2023-06-24T21:09:27.370131, LeapYearTest:InvalidYear = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 5          | # of all combined edge cases
+edge-cases#tried = 5          | # of edge cases tried in current run
+seed = -7498724407467826377   | random seed to reproduce generated values
+
+
+timestamp = 2023-06-24T21:09:27.454814, LeapYearTest:NonLeapYear = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 780                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 4          | # of all combined edge cases
+edge-cases#tried = 4          | # of edge cases tried in current run
+seed = -3008756421582218667   | random seed to reproduce generated values
+
+
+timestamp = 2023-06-24T21:09:27.504819, LeapYearTest:LeapYear = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 254                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 4          | # of all combined edge cases
+edge-cases#tried = 4          | # of edge cases tried in current run
+seed = 7226421000210992399    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

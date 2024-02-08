@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab02.RectangleTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-05-27T03:18:02" hostname="arfazhussX.local" time="0.016">
+  <properties/>
+  <testcase name="AreaRectangleTest()" classname="lab02.RectangleTest" time="0.008"/>
+  <testcase name="testHarnessWorking()" classname="lab02.RectangleTest" time="0.001"/>
+  <testcase name="changeWidthNegative()" classname="lab02.RectangleTest" time="0.0"/>
+  <testcase name="changeWidthValid()" classname="lab02.RectangleTest" time="0.0"/>
+  <testcase name="changeHeightNegative()" classname="lab02.RectangleTest" time="0.0"/>
+  <testcase name="equalityRecTest()" classname="lab02.RectangleTest" time="0.001"/>
+  <testcase name="createDefaultRect()" classname="lab02.RectangleTest" time="0.001"/>
+  <testcase name="checkRecInside()" classname="lab02.RectangleTest" time="0.0"/>
+  <testcase name="checkAreaSorted()" classname="lab02.RectangleTest" time="0.004"/>
+  <system-out><![CDATA[
+
+RecAreaUnSorted:	[400, 900, 100]
+RecAreaSorted:		[100, 400, 900]
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

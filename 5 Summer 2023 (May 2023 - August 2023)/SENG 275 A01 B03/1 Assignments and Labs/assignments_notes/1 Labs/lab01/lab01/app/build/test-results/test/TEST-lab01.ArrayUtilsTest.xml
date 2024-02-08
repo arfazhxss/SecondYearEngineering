@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab01.ArrayUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-13T03:30:52" hostname="arfazhussX.local" time="0.011">
+  <properties/>
+  <testcase name="someSortedArr()" classname="lab01.ArrayUtilsTest" time="0.011"/>
+  <system-out><![CDATA[
+
+The Test Worked!
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,43 @@
+Exploratory testing report:
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: System is ON, customer is being served
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to Balance Inquiry, Select "2 Money Market"
+Expected outcome: INVALID ACCOUNT TYPE!
+Actual outcome: UNKNOWN ERROR!
+Fixed in version 1.1? Yes
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: System is ON, customer is being served
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to Balance Inquiry, Select "2 Money Market"
+Expected outcome: There should be an option for "Savings" which is one of the type of account for the card 1.
+Actual outcome: No option for "Savings" in the card 1. It should give all available options for accounts to the customer.
+Fixed in version 1.1? Yes
+
+Bug number: 2
+Software version: 1.1
+Initial state of the system: 
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to Balance Inquiry, Select "2 Savings"
+Expected outcome: No Error
+Actual outcome: UNKNOWN ERROR!
+Fixed in version 1.1? NO
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system: 
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to Balance Inquiry, Selecting any of the accounts and then selecting "CANCEL"
+Expected outcome: "Transaction Inquiry Cancelled"
+Actual outcome: Button "Cancel" doesn't work and/or do anything
+Fixed in version 1.1? NO
+
+Bug number: 4
+Software version: 1.0
+Initial state of the system:
+Steps to reproduce: Insert a card, enter card number 1 & PIN 42, go to "1 Withdraw", Select any valid account (For card 1 -> Checking and Saving)
+Expected outcome: Selecting $20 should withdraw $20, Selecting $40 should withdraw $40, Selecting $60 should withdraw $60, Selecting $100 should withdraw $100, Selecting $200 should withdraw $200
+Actual outcome: Selecting $20 withdraws $40, Selecting $40 withdraws $60, Selecting $60 withdraws $100, Selecting $100 withdraws $200, Selecting $200 withdraws $20
+Fixed in version 1.1? YES
+
+
